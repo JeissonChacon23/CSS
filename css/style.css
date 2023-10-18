@@ -1,0 +1,28 @@
+#principal{
+    color: blueviolet;
+}
+
+.texto{
+    color: yellow;
+    font-size: large;
+    background-color: blue;
+}
+.texto1{
+    color: red;
+    font-size: small;
+    background-color: green;
+    text-align: right;
+}
+.texto2{
+    color: navy;
+    background-color: orange;
+    text-align: left;
+}
+.texto3{
+    color: red;
+    background-color: black;
+    text-align: center;
+}
+.texto4{
+    background-color: green;
+}
