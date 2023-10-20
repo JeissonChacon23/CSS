@@ -26,3 +26,18 @@
 .texto4{
     background-color: green;
 }
+
+p{
+    color: orchid;
+    font-family: serif;
+}
+button{
+    color: green;
+    background-color: red;
+    font-size: large;
+}
+h1, h2{
+    color: black;
+    background-color: yellow;
+    text-align: center;
+}
