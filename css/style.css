@@ -1,16 +1,15 @@
-p{
-    color: gray;
+#intro{
+    color: greenyellow;
 }
-em{
-    color: plum;
+.l1{
+    width: 50%;
+    background-color: rgb(20, 231, 199);
 }
-h1{
-    color: purple;
-    text-align: center;
+.l{
+    display: flex;
+    width: 100%;
 }
-u{
-    color: orange;
-}
-h2 b{
-    color: red;
+p.content{
+    color: seagreen;
+    font-size: 18px;
 }
