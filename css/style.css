@@ -1,43 +1,16 @@
-#principal{
-    color: blueviolet;
-}
-
-.texto{
-    color: yellow;
-    font-size: large;
-    background-color: blue;
-}
-.texto1{
-    color: red;
-    font-size: small;
-    background-color: green;
-    text-align: right;
-}
-.texto2{
-    color: navy;
-    background-color: orange;
-    text-align: left;
-}
-.texto3{
-    color: red;
-    background-color: black;
-    text-align: center;
-}
-.texto4{
-    background-color: green;
-}
-
 p{
-    color: orchid;
-    font-family: serif;
+    color: gray;
 }
-button{
-    color: green;
-    background-color: red;
-    font-size: large;
+em{
+    color: plum;
 }
-h1, h2{
-    color: black;
-    background-color: yellow;
+h1{
+    color: purple;
     text-align: center;
+}
+u{
+    color: orange;
+}
+h2 b{
+    color: red;
 }
