@@ -1,15 +1,13 @@
-#intro{
-    color: greenyellow;
+p {
+    color: red;
+    text-align: left;
+  }
+#p1{
+    color: blue;
 }
-.l1{
-    width: 50%;
-    background-color: rgb(20, 231, 199);
-}
-.l{
-    display: flex;
-    width: 100%;
-}
-p.content{
-    color: seagreen;
-    font-size: 18px;
-}
+
+/*style rule for the menu class*/
+.menu {
+    font-size: medium;
+    background-color: lightblue;
+  }
