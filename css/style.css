@@ -1,13 +1,15 @@
-p {
-    color: red;
-    text-align: left;
+.p {
+    color: green;
   }
-#p1{
-    color: blue;
+.p1{
+  color: gray;
 }
 
-/*style rule for the menu class*/
-.menu {
-    font-size: medium;
-    background-color: lightblue;
-  }
+h3 u{
+  color: purple;
+}
+
+p.blog{
+  color: aquamarine;
+  text-align: center;
+}
