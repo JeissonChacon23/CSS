@@ -12,7 +12,20 @@ p{
 button{
   columns: #ffffff;
   background-color: #ff9595;
+  font-size: 10px;
 }
 h4{
   color: #ff9595;
+}
+#img1{
+  width: 50px;
+}
+img{
+  width: 50%;
+}
+#p1{
+  font-size: 32px;
+}
+.movie{
+  font-size: large;
 }
