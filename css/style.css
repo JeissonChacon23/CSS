@@ -1,68 +1,82 @@
-h1{
-  color: blue;
-  text-align: center;
-  text-decoration: line-through;
-}
-h3{
-  display: 20%;
-  color: green;
-  background-color: black;
-}
-h4{
-  text-decoration: wavy overline #2A9D8F;
-  
-}
-/*
-text-decoration-style: solid;
-text-decoration-style: double;
-text-decoration-style: dotted;
-text-decoration-style: dashed;
-text-decoration-style: wavy;
-*/
-p{
-  color: rgb(127, 255, 212);
-}
-button{
-  columns: #ffffff;
-  background-color: #ff9595;
-  font-size: 10px;
-}
-h4{
-  color: #ff9595;
-}
-#img1{
-  width: 50px;
-}
-img{
-  width: 50%;
-}
-#p1{
-  font-size: 32px;
-}
-.movie{
-  font-size: large;
-}
-.p1{
-  text-align: justify;
-}
-.p2{
-  text-align: left;
-  text-shadow: 15px 12px 5px #149EF2;
-}
-.p3{
-  text-align: right;
-  text-shadow: 4px 4px 4px #4296CE;
-}
-#offer b{
-  text-decoration: overline;
-  color: #ff9595;
-  text-shadow: 6px -4px;
-}
-.article-title {
-  text-decoration: underline #FF4500;
-  font-size: 24px;
-}
-.capitalize { 
-  text-transform: capitalize; 
+.font-georgia{
+  font-family: Georgia;
+  font-family: serif;
+  font-family: sans-serif;
+  font-family: monospace;
 }
 
+
+.serif-font {
+  /*Fonts have decorative 
+  strokes or serifs.*/
+  font-family: serif;
+}
+
+.sans-serif-font {
+  /*Fonts lack decorative strokes*/
+  font-family: sans-serif;
+}
+
+.monospace-font {
+  /*Fonts have equal character spacing*/
+  font-family: monospace;
+}
+
+.cursive-font {
+  /*Fonts mimic handwriting for 
+  a personal or artistic touch.*/
+  font-family: cursive;
+}
+
+.fantasy-font {
+  /*Decorative or unique fonts
+  not fitting other categories*/
+  font-family: fantasy;
+}
+
+body {
+  background-color: #0C1527;
+  color: #FFFFFF;
+}
+.button{
+  font-weight: 500;
+}
+
+p {
+  font-family: Arial, sans-serif;
+  font-size: 1.5em;
+}
+
+#light {
+  font-weight: 100;
+}
+
+#normal {
+  font-weight: 400;
+}
+
+#bold {
+  font-weight: 700;
+}
+
+#bolder {
+  font-weight: 900;
+}
+
+
+
+body {
+  background-color: #F4E1D2;
+  text-align: center;
+}
+
+h1 {
+  font-weight: bold;
+  color: #D83367;
+}
+
+button {
+  font-weight: 400;
+  color: white;
+  background-color: #D83367;
+}
