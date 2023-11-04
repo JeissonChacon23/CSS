@@ -1,20 +1,31 @@
-.bodyColor{
-  background-color: darkslategrey;
-  font-family: Arial, sans-serif;
+a {
+  color: #52C80C;
+  font-family: 'Georgia', serif;
+  background-color: #D6E5E3;
 }
 
-h2, p{
-  text-align: center;
-  color: white;
-}
-
-#profile{
-  text-align: center;
-  color: #FFFFFF;
-}
-.active-day{
-  color: #00CC00;
-}
-.inactive-day{
-  color: #CCCCCC;
-}
+/* defines the style 
+  unvisited links */
+  a:link {
+    color: #D11BCE;
+    text-decoration: none;
+    /*text-decoration: none;*/
+  }
+  
+  /* a link is hovered when
+    the mouse is over it */
+  a:hover {
+    color: #6897EE;
+    background-color: #000000;
+  }
+  
+  /* click on the link but hasn't 
+    released the mouse button yet */
+  a:active{
+    color: #B8860B;
+    background-color: #000000;
+  }
+  
+  body {
+   font-size: 20px;
+  }
