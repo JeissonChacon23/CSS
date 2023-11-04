@@ -1,31 +1,27 @@
-a {
-  color: #52C80C;
-  font-family: 'Georgia', serif;
-  background-color: #D6E5E3;
+body {
+  font-family: Arial, sans-serif;
+  background-color: #F3F4F6;
+  color: #333;
 }
 
-/* defines the style 
-  unvisited links */
-  a:link {
-    color: #D11BCE;
-    text-decoration: none;
-    /*text-decoration: none;*/
-  }
-  
-  /* a link is hovered when
-    the mouse is over it */
-  a:hover {
-    color: #6897EE;
-    background-color: #000000;
-  }
-  
-  /* click on the link but hasn't 
-    released the mouse button yet */
-  a:active{
-    color: #B8860B;
-    background-color: #000000;
-  }
-  
-  body {
-   font-size: 20px;
-  }
+tr:nth-child(3){
+  background-color: #FFA310;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 2px solid #909092;
+}
+
+/* light gray for odd rows */
+tr:nth-child(odd) {
+  background-color: #E9E9E9;  
+}
+
+/* white for even rows */
+tr:nth-child(even) {
+  background-color: #FFFFFF;  
+}
