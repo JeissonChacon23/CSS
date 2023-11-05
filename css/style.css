@@ -1,111 +1,29 @@
-ul{
-  list-style: square inside none;
-}
-.trends {
-  list-style-type: square;
+.bodyColor{
+  background-color: darkslategrey;
+  font-family: Arial, sans-serif;
 }
 
-.most-watched {
-  list-style-type: circle;
+h2, p{
+  text-align: center;
+  color: white;
 }
 
-.new-arrivals {
-  list-style-type: disc;
-}
-
-.classics {
-  list-style-type: none;
-}
-
-body {
-  background-color: #232323;
+#profile{
+  text-align: center;
   color: #FFFFFF;
-  font-size: 18px;
+  list-style: none;
 }
-
-h2 {
-  color: #B8A7C2;
-  text-align: center;
-  text-transform: capitalize;
+#streak{
+  list-style: none;
+  background-color: white;
+  border-radius: 5px;
 }
-
-
-
-
-
-
-
-
-.top-selling {
-  list-style-type: decimal-leading-zero;
+#streak, p{
+  color: #676767;
 }
-
-.classic {
-  list-style-type: decimal;
+.active-day{
+  color: #00CC00;
 }
-
-.biographies {
-  list-style-type: lower-roman;
-}
-
-.fantasy {
-  list-style-type: upper-roman;
-}
-
-h1,h2 {
-  background-color: #FFA055;
-  text-align: center;
-}
-
-li {
-  font-size: 18px;
-}
-
-
-
-
-
-
-/* places the marker within the text 
-  area, inside the item element */
-  #list-inside {
-    list-style-position: inside;
-  }
-  
-  /* places the marker outside the text 
-    area, outside the item element */
-  #list-outside {
-    list-style-position: outside;
-  }
-  
-  p {
-    text-align: center;
-    background-color: #B538E7;
-    font-size: 26px;
-  }
-  
-  li {
-    border: 2px solid #CCCCCC;
-    font-size: 18px;
-  }
-
-
-
-/* Created by htmllessons */
-
-body {
-  font-family: 'Arial', sans-serif;
-  background-color: #282a36;
-  color: #f8f8f2;
-  font-size: 18px;
-}
-
-ul {
-  list-style-image: url('https://blob.sololearn.com/courses/logo.png');
-  background-color: #44475a;
-}
-
-li {
-  font-weight: 600;
-  text-shadow: 2px 2px 3px #6272a4;
+.inactive-day{
+  color: #CCCCCC;
 }
