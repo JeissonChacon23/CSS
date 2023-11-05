@@ -1,29 +1,56 @@
-.bodyColor{
-  background-color: darkslategrey;
-  font-family: Arial, sans-serif;
+body{
+  background-color: #0C1527;
 }
 
-h2, p{
-  text-align: center;
+input {
+  border:1px solid #FF9E03;
+}
+label {
+  font-weight: bold;
+  color: #FF9E03;
+}
+
+
+input[type="text"] {
+  border: 1px solid #FF9E03;
+  background-color: #17233B;
+}
+
+input[type="text"], input[type="email"] {
+  border: 1px solid #FF9E03;
+  background-color: #17233B;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+input[type='submit'] {
+  background-color: #149EF2;
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
   color: white;
 }
 
-#profile{
-  text-align: center;
-  color: #FFFFFF;
-  list-style: none;
+button{
+  border-radius: 20px;
 }
-#streak{
-  list-style: none;
-  background-color: white;
-  border-radius: 5px;
+
+#avatar{
+  /*border-radius: 50%;*/
+  border-radius: 20px 15px 10px 8px;
 }
-#streak, p{
-  color: #676767;
+
+input[type='submit']:active {
+  background-color: #0C1527;
+  color: #FF9E03;
+  border: 1px solid #FF9E03;
+  border-radius: 10px;
 }
-.active-day{
-  color: #00CC00;
+
+input[type="submit"] :hover{
+  color: blue;
 }
-.inactive-day{
-  color: #CCCCCC;
+
+input[type="submit"]{
+  border: none;
 }
