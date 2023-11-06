@@ -1,111 +1,79 @@
-a{
-  display: block;
-  background-color: aliceblue;
-  color: aquamarine;
+button {
+  position:absolute;
+  left: 10px;
+  top: 20px;
 }
-img{
-  display: block;
-}
-p{
-  display: inline;
-  border: 1px solid rgb(189, 185, 185);
-  margin-left: 2px;
-}
-/*div{
-  display: flex;
-  border: 1px solid rgb(189, 185, 185);
-  box-shadow: 0 2px 4px #000000;
-  flex-direction: column;
-}*/
-div{
-  display: flex;
-  flex-wrap: wrap;
-}
-
-
-/*#container {
-  display: flex;
-  border: 1px solid #333;
-  padding: 10px;
-  margin: 10px;
-}*/
-#small-content {
-  border: 1px solid black;
-  margin-right: 2px;
-}
-
-#large-content {
-  border: 1px solid black;
-}
-
-
-/*#container {
-  border: 1px solid #818181;
-  box-shadow: 2px 2px #474747;
-  display: flex;
-}*/
-
+/* Default static position */
 #item1 {
-  flex-grow: 1;
-  border: 1px solid #868686;
-  box-shadow: 2px 2px black;
-  margin-right: 10px;
-  margin-left: 5px;
+  background-color: #0000FF;
+  height: 100px;
+  width: 300px;
 }
 
+/* Absolute positioning */
 #item2 {
-  flex-grow: 2;
-  border: 1px solid #868686;
-  box-shadow: 2px 2px black;
-  margin-right: 10px;
+  position: absolute;
+  left: 50px;
+  top: 40px;
+  background-color: #FF0000;
+  height: 100px;
+  width: 300px;
+}
+/*An element with position: fixed always stays in the same place even if the page is scrolled.*/
+.fixed-header {
+  position: fixed;
+  text-align: center;
+  align-items: center;
+}
+.special {
+  position: relative;
+  left: 20px;
+}
+#element{
+  position: relative;
+  left: 30px;
+  top: 15px;
 }
 
-#item3 {
-  flex-grow: 3;
-  border: 1px solid #868686;
-  box-shadow: 2px 2px black;
-  margin-right: 5px;
+/*#parent {
+  border:solid;
+  width: 150px;
+  height: 80px;
+  left: 40px;
+  top: 60px;
+  position: relative;
 }
 
+#child {
+  position:absolute;
+  top: 10px;
+  left: 20px
+}*/
 
-#container {
-  display: flex;
-  border: 1px solid black;
+#parent {
+  position: relative;
 }
 
-.item {
-  flex-grow: 0;
-  border: 1px solid green;
-  margin-right: 2px;
+#child {
+  position: absolute;
+  /* right and bottom edges of 
+  the child will be aligned with the
+  right and bottom edges of the #parent */
+  right: 0px;
+  bottom: 0px;
 }
-
-
-
-
-div {
-  padding: 20px;
-  border: 1px solid rgb(189, 185, 185);
-  box-shadow: 0 2px 4px #000000;
-  display: flex;
+button{
+  position: absolute;
+  right: 50px;
+  bottom: 25px;
 }
-
-#item1 {
-  flex-shrink: 1;
-  flex-grow: 1;
+#p2{
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
 }
-
-#item2 {
-  flex-shrink: 2;
-  flex-grow: 1;
-}
-
-p {
-  border: 1px solid rgb(189, 185, 185);
-  box-shadow: 0 2px 4px #000000;
-  background-color: rgb(247, 228, 203);
-  margin: 5px;
-}
-
-body {
-  font-family: Arial, sans-serif;
+#element{
+  position: relative;
+  left: 15px;
+  top: 20px;
 }
