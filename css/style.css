@@ -1,37 +1,83 @@
-.bodyColor{
-  background-color: darkslategrey;
-  font-family: Arial, sans-serif;
+h1{
+  color: yellow;
+  background-color: blue;
 }
 
-h2, p{
-  text-align: center;
-  color: white;
+div{
+  background-repeat: no-repeat;
+}
+#demo{
+  background-image: url('');
+  background-repeat: no-repeat;
+}
+/*.box1 {
+  background-repeat: repeat-x;
 }
 
-#profile{
-  display: inline;
-  text-align: center;
-  color: #FFFFFF;
-  list-style: none;
-  margin: 15px;
+.box1 {
+  background-image: url('https://blob.sololearn.com/courses/logo1.png');
+  background-repeat: repeat-x;
+  height: 150px;
+  width: 150px;
+  border: 1px solid;
+  margin-bottom: 10px;
 }
-#streak{
-  display: inline;
-  margin: 5px;
-  padding: 5px;
-  padding-top: 10px;
-  list-style: none;
-  background-color: white;
-  border-radius: 5px;
+
+.box2 {
+  background-image: url('https://blob.sololearn.com/courses/logo1.png');
+  background-repeat: repeat-y;
+  height: 150px;
+  width: 150px;
+  border: 1px solid;
+}*/
+
+#box1 {
+  background-image: url('https://sololearnassets.azureedge.net/sl-logo.png');
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  height:150px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid black;
 }
-#streak, p{
-  color: #676767;
-  display: inline;
-  margin: 10px;
+
+
+#box2 {
+  background-image: url('https://sololearnassets.azureedge.net/sl-logo.png');
+  background-repeat: no-repeat;
+  background-position: top right;
+  height:150px;
+  padding: 10px;
+  border: 1px solid black;
 }
-.active-day{
-  color: #00CC00;
+
+div{
+  background-size: 50px 30px;
 }
-.inactive-day{
-  color: #CCCCCC;
+
+#container1 {
+  background-size: contain;
+}
+
+#container1 {
+  background-image: url('https://sololearnassets.azureedge.net/sl-logo.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 150px;
+  padding: 10px;
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+
+#container2 {
+  background-image: url('https://sololearnassets.azureedge.net/sl-logo.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+input[type = "submit"]{
+  background-color: #ff0000;
 }
