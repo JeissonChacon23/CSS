@@ -1,83 +1,28 @@
+div{
+  display: flex;
+  flex-direction: column;
+}
+
+div{
+  display: flex;
+  flex-wrap: wrap;
+}
+button{
+  position: absolute;
+}
+div{
+  background-image: url('image.png');
+  background-position: center;
+}
 h1{
-  color: yellow;
-  background-color: blue;
+  text-align: center;
+  border: 1px, solid, red;
 }
-
-div{
-  background-repeat: no-repeat;
-}
-#demo{
+.box{
   background-image: url('');
-  background-repeat: no-repeat;
-}
-/*.box1 {
-  background-repeat: repeat-x;
-}
-
-.box1 {
-  background-image: url('https://blob.sololearn.com/courses/logo1.png');
-  background-repeat: repeat-x;
-  height: 150px;
-  width: 150px;
-  border: 1px solid;
-  margin-bottom: 10px;
-}
-
-.box2 {
-  background-image: url('https://blob.sololearn.com/courses/logo1.png');
-  background-repeat: repeat-y;
-  height: 150px;
-  width: 150px;
-  border: 1px solid;
-}*/
-
-#box1 {
-  background-image: url('https://sololearnassets.azureedge.net/sl-logo.png');
-  background-repeat: no-repeat;
-  background-position: bottom center;
-  height:150px;
-  padding: 10px;
-  margin-bottom: 15px;
-  border: 1px solid black;
-}
-
-
-#box2 {
-  background-image: url('https://sololearnassets.azureedge.net/sl-logo.png');
-  background-repeat: no-repeat;
-  background-position: top right;
-  height:150px;
-  padding: 10px;
-  border: 1px solid black;
-}
-
-div{
-  background-size: 50px 30px;
-}
-
-#container1 {
+  background-position: center;
   background-size: contain;
 }
-
-#container1 {
-  background-image: url('https://sololearnassets.azureedge.net/sl-logo.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 150px;
-  padding: 10px;
-  border: 1px solid black;
-  margin-bottom: 10px;
-}
-
-#container2 {
-  background-image: url('https://sololearnassets.azureedge.net/sl-logo.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 150px;
-  padding: 10px;
-  border: 1px solid black;
-}
-
-input[type = "submit"]{
-  background-color: #ff0000;
+#pic{
+  margin-right: 6px;
 }
