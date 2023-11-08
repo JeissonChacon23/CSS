@@ -1,28 +1,81 @@
-div{
-  display: flex;
-  flex-direction: column;
+/*div:active{
+  transform: translate(50px);
+}
+div:hover{
+  transform: translate(25px, 10px);
+}
+.card:active{
+  transform: translate(-25px, 50px);
+}
+.blue:active {
+  transform: scale(1.5);  
 }
 
-div{
-  display: flex;
-  flex-wrap: wrap;
+.yellow:active {
+  transform: scale(0.7);  
 }
-button{
-  position: absolute;
+
+.blue {
+  width: 150px;
+  height: 150px;
+  background-color: #3498DB;
+  border-radius: 20px;
+  margin: 50px;
 }
-div{
-  background-image: url('image.png');
-  background-position: center;
+*/
+.yellow {
+  width: 150px;
+  height: 150px;
+  background-color: #DBBC34;
+  border-radius: 20px;
+  margin: 50px;
 }
-h1{
-  text-align: center;
-  border: 1px, solid, red;
+
+div:active {
+  /* rotates the card by 
+  15 degrees when pressed */
+  transform: rotate(15deg);  
 }
-.box{
-  background-image: url('');
-  background-position: center;
-  background-size: contain;
+
+div {
+  width: 150px;
+  height: 150px;
+  background-color: #3498DB;
+  border-radius: 20px;
+  margin: 40px;
 }
-#pic{
-  margin-right: 6px;
+#element{
+  transform: rotate(20deg);
+}
+
+.yellow:active {
+  /*counter-clockwise
+  Negative values result in counter-clockwise rotations.*/
+  transform: rotate(-15deg);  
+}
+
+.card:active {
+  transform: rotate(30deg);
+  transform-origin: top left;
+}
+.card{
+  transform: rotate(-30deg);
+  transform-origin: top left;
+}
+
+
+
+
+div {
+  width: 150px;
+  height: 150px;
+  background-color: #3498DB;
+  border-radius: 20px;
+  margin: 50px;
+}
+
+div:active {
+  /*transform: translate(0px, -20px);*/
+  transform: translate(100px, 150px) 
+  rotate(70deg) scale(1.5);
 }
