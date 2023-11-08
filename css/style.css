@@ -1,115 +1,121 @@
-p{
-  font-size: x-large;
-  background-color: blueviolet;
-  color: white;
-  width: 40%;
-  transition: width 3s;
-}
-p:active{
-  width: 100%;
-}
-
-
-
-#element {
-  color: red;
- transition: color 3s;
-}
-#element:hover {
-  color: yellow;
-}
-
-
-#element{
-  width: 20%;
-  transition: width 3s;
-}
-#element:hover{
-  width: 100%;
-}
-
-
-#box {
-  width: 100px;
-  height: 100px;
-  background-color: #4169E1;
-  transition: width 1s, height 1s, 
-  background-color 1s;
-}
-
-#box:active {
+#element1 {
   width: 150px;
   height: 150px;
-  background-color: #DC143C;
-}
-
-
-
-#element{
-  height: 15%;
-  font-size: 20px;
-  transition: height 3s, font-size 2s;
-}
-#element:hover{
-  height: 100%;
-  font-size: 30px;
-}
-
-
-#element {
-  width: 100px;
-  background-color: blue;
-  color: white;
-  transition: width 2s, 
-  background-color 1s;
-  transition-delay: 2s;
-}
-
-#element:active {
-  width: 200px;
   background-color: red;
+  transition: background-color 3s; 
+  margin: 20px;
+}
+
+#element1:active {
+  background-color: yellow;
+}
+
+#element2 {
+  width: 150px;
+  height: 150px;
+  background-color: red;
+  margin: 20px;
+  animation-name: colorChange;
+  animation-duration: 3s;
+}
+
+@keyframes colorChange {
+  0% {
+    background-color: red;
+    }
+  50% {
+    background-color: yellow;
+    }
+  100% {
+    background-color: blue;
+    }
+}
+
+p {
+  color: white;
+  text-align: center;
+  padding-top: 65px;
+  font-size: 20px;
+}
+
+h2 {
+  padding-left: 40px;
 }
 
 
-#box{
-  width: 15%;
-  transition: width 5s;
-  transition-delay: 3s;
-}
-
-.prueba{
-  transform: scale(2);
-}
 
 
-button {
-  padding: 10px 20px;
-  font-size: 16px;
-  margin: 30px;
-  border: none;
-  border-radius: 5px;
-  background-color: #3498DB;
-  color: #FFFFFF;
-  transition: transform 1s;
-}
-
-button:active {
-  transform: scale(1.3);
-  transition: transform 5s, height 5s;
-}
-
-#card{
-  transition: transform 2s;
-}
-#card:hover{
-  transform: rotate(35deg);
-}
 
 
-#element{
-  border-radius: 3px;
-  transition:  border-radius 3s;
+
+
+div {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  margin: 50px;
+  animation-name: snakeMove;
+  animation-duration: 5s;
 }
-#element:hover{
-  border-radius: 6px;
+
+@keyframes snakeMove {
+  0% {
+    background-color: #7B41EA;
+    bottom: 0;
+    left: 0;
+  }
+  33% {
+    background-color: #CCB4FB;
+    bottom: 40px;
+    left: 40px;
+  }
+  66% {
+    background-color: #C833FD;
+    bottom: 0;
+    left: 80px;
+  }
+  100% {
+    background-color: #F91583;
+    bottom: 40px;
+    left: 120px;
+  }
+}
+
+
+
+
+
+div {
+  animation-name: colorChange;
+  animation-duration: 4s;
+  animation-delay: 2s;
+}
+
+
+div {
+  padding: 30px;
+  border-radius: 50%;
+  width: 50px;
+  background-color: #007BFF;
+  color: white;
+  animation-name: colorChange;
+  animation-duration: 4s;
+  animation-delay: 2s;
+}
+
+@keyframes colorChange {
+  0% {background-color: #007BFF;}
+  25% {background-color: #FFC107;}
+  50% {background-color: #28A745;}
+  75% {background-color: #DC3545;}
+  100% {background-color: #6610F2;}
+}
+
+
+
+
+/*As an alternative to using percentages for keyframes, you can use from and to keywords when there are only 2 frames for the animation.*/
+@keyframes colorChange {
+  from { background-color: #007BFF;}
+  to { background-color: #6610F2;}
 }
