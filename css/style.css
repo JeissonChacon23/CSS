@@ -1,81 +1,115 @@
-/*div:active{
-  transform: translate(50px);
+p{
+  font-size: x-large;
+  background-color: blueviolet;
+  color: white;
+  width: 40%;
+  transition: width 3s;
 }
-div:hover{
-  transform: translate(25px, 10px);
-}
-.card:active{
-  transform: translate(-25px, 50px);
-}
-.blue:active {
-  transform: scale(1.5);  
+p:active{
+  width: 100%;
 }
 
-.yellow:active {
-  transform: scale(0.7);  
+
+
+#element {
+  color: red;
+ transition: color 3s;
+}
+#element:hover {
+  color: yellow;
 }
 
-.blue {
-  width: 150px;
-  height: 150px;
-  background-color: #3498DB;
-  border-radius: 20px;
-  margin: 50px;
-}
-*/
-.yellow {
-  width: 150px;
-  height: 150px;
-  background-color: #DBBC34;
-  border-radius: 20px;
-  margin: 50px;
-}
 
-div:active {
-  /* rotates the card by 
-  15 degrees when pressed */
-  transform: rotate(15deg);  
-}
-
-div {
-  width: 150px;
-  height: 150px;
-  background-color: #3498DB;
-  border-radius: 20px;
-  margin: 40px;
-}
 #element{
-  transform: rotate(20deg);
+  width: 20%;
+  transition: width 3s;
 }
-
-.yellow:active {
-  /*counter-clockwise
-  Negative values result in counter-clockwise rotations.*/
-  transform: rotate(-15deg);  
-}
-
-.card:active {
-  transform: rotate(30deg);
-  transform-origin: top left;
-}
-.card{
-  transform: rotate(-30deg);
-  transform-origin: top left;
+#element:hover{
+  width: 100%;
 }
 
 
+#box {
+  width: 100px;
+  height: 100px;
+  background-color: #4169E1;
+  transition: width 1s, height 1s, 
+  background-color 1s;
+}
 
-
-div {
+#box:active {
   width: 150px;
   height: 150px;
-  background-color: #3498DB;
-  border-radius: 20px;
-  margin: 50px;
+  background-color: #DC143C;
 }
 
-div:active {
-  /*transform: translate(0px, -20px);*/
-  transform: translate(100px, 150px) 
-  rotate(70deg) scale(1.5);
+
+
+#element{
+  height: 15%;
+  font-size: 20px;
+  transition: height 3s, font-size 2s;
+}
+#element:hover{
+  height: 100%;
+  font-size: 30px;
+}
+
+
+#element {
+  width: 100px;
+  background-color: blue;
+  color: white;
+  transition: width 2s, 
+  background-color 1s;
+  transition-delay: 2s;
+}
+
+#element:active {
+  width: 200px;
+  background-color: red;
+}
+
+
+#box{
+  width: 15%;
+  transition: width 5s;
+  transition-delay: 3s;
+}
+
+.prueba{
+  transform: scale(2);
+}
+
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: #3498DB;
+  color: #FFFFFF;
+  transition: transform 1s;
+}
+
+button:active {
+  transform: scale(1.3);
+  transition: transform 5s, height 5s;
+}
+
+#card{
+  transition: transform 2s;
+}
+#card:hover{
+  transform: rotate(35deg);
+}
+
+
+#element{
+  border-radius: 3px;
+  transition:  border-radius 3s;
+}
+#element:hover{
+  border-radius: 6px;
 }
